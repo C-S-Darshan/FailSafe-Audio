@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  color: #2c3e50;
+}
+
+/* Audio List */
+.audio-list {
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.audio-list h2 {
+  color: #34495e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-item {
+  padding: 10px;
+  background: #dcdde1;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.file-item:hover {
+  background: #95a5a6;
+}
+
+.selected {
+  background: #3498db;
+  color: white;
+}
+
+/* Selected File */
+.selected-file {
+  background: #dfe6e9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.transcribe-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.transcribe-btn:hover {
+  background: #2ecc71;
+}
+
+/* Transcription Result */
+.transcription {
+  background: #f1c40f;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.transcription h2 {
+  color: #7f6000;
+}
